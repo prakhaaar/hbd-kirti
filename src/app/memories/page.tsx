@@ -21,6 +21,7 @@ export default function MemoriesPage() {
         transition={{ delay: 0.4, duration: 1 }}
         className="text-lg md:text-xl font-sans text-center max-w-2xl mb-10 leading-relaxed"
       >
+<<<<<<< HEAD
         A few frozen moments, a thousand unspoken emotions — here&apos;s our gallery
         of love, laughter, and everything that makes you, you 💖
       </motion.p>
@@ -54,6 +55,10 @@ export default function MemoriesPage() {
       >
         A few frozen moments, a thousand unspoken emotions — here&apos;s our gallery
         of love, laughter, and everything that makes you, you 💖
+=======
+        A few frozen moments, a thousand unspoken emotions heres our gallery of
+        love, laughter, and everything that makes you, you 💖
+>>>>>>> 6171e78 (Fix: escape apostrophe for JSX lint compliance)
       </motion.p>
 
       <MirrorCarousel />
